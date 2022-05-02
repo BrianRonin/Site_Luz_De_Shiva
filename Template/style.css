@@ -1,0 +1,181 @@
+/********** BODY ******************/
+
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/********** HEADER ******************/
+
+.head-logo-nav {
+
+  display: grid;
+
+  grid-template-rows: 60px;
+  grid-template-columns: auto auto;
+
+  margin-top: 35px;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.head-nav {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+
+
+  align-items: center;
+  justify-items: center;
+
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 1px;
+  border-bottom: 1px;
+
+  border-style: solid;
+  border-color: white;
+  background-color: black;
+
+  padding: 0px;
+  margin: 10px;
+  margin-top: 5px;
+}
+
+.logo {
+  width: 160px;
+
+}
+
+.logoL {
+  width: 400px
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  align-self: center;
+  justify-content: center;
+}
+
+/********** FOOTER ******************/
+
+.myFoter {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-footer {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+@media screen and (max-width: 3000px) {
+
+  /********** HEADER ******************/
+
+  .logo {
+    width: 120px;
+    margin-bottom: 35px;
+    margin-right: 8px;
+  }
+
+
+  .logoL {
+    width: 240px;
+    margin-bottom: 20px;
+  }
+
+  /********** FOOTER ******************/
+
+  .Endereço-footer {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .Endereço-footer {
+    text-align: center;
+  }
+
+  .informação-footer {
+    text-align: center;
+  }
+
+  .logo-footer-a {
+    padding-bottom: 65px;
+
+  }
+
+  .pagamento-footer {
+    width: 10px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  /********** HEADER ******************/
+
+  .head-logo-nav {
+    margin-top: 10px;
+  }
+
+  .logo {
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+
+  .logoL {
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 7px;
+  }
+
+  /********** FOOTER ******************/
+
+  .myFoter {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+
+  .Endereço-footer {
+    text-align: center;
+  }
+
+  .informação-footer {
+    text-align: center;
+  }
+
+  .logo-footer-a {
+    padding-bottom: 65px;
+
+  }
+
+  .pagamento-footer {
+    width: 10px;
+  }
+
+}
